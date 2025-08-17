@@ -11,30 +11,47 @@
 - **Package Manager**: Yarn
 - **Testing**: Jest + React Testing Library
 
-````
-
 ## Installation
+
+### Option 1: Clone from Git Bundle
+
+1. **Download the git bundle**
+
+   Download `file-table-repo.bundle` from the email
+
+2. **Clone from the git bundle**
+
+   ```bash
+   git clone file-table-repo.bundle file-table
+   cd file-table
+   ```
+
+### Option 2: Clone from Repository
 
 1. **Clone the repository**
 
    ```bash
    git clone <repository-url>
    cd file-table
-````
+   ```
 
-2. **Install dependencies**
+## Setup
+
+**After cloning (either option above):**
+
+1. **Install dependencies**
 
    ```bash
    yarn install
    ```
 
-3. **Start development server**
+2. **Start development server**
 
    ```bash
    yarn dev
    ```
 
-4. **Open your browser**
+3. **Open your browser**
    Navigate to `http://localhost:5173`
 
 ## Usage
